@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.post {
+    margin: 0 auto;
+    width: 700px;
+    background-color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    justify-content: flex-end;
+}
+
+.left-icons {
+    display: flex;
+    }
+
+.right-icons {
+    align-self: self-end;
+}
+
+
+img{
+    width: 100%;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+}

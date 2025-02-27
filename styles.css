@@ -1,7 +1,32 @@
 body {
     margin: 0;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
+
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+.icon-text i {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.html-text {
+    font-weight: bold; /* Make HTML5 bold */
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px; /* Same as icon size */
+    font-size: 18px; /* Adjust font size to match icon proportion */
+    line-height: 1.2; /* Adjust spacing */
+}
+
 
 .post {
     margin: 0 auto;
@@ -12,20 +37,31 @@ body {
 .title {
     display: flex;
     justify-content: space-between;
+    
 }
 
-.icono {
-    justify-content: flex-end;
+.options {
+    display: flex;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.intro {
+    text-align: left;
+    font-size: 40px;
 }
 
 .left-icons {
     display: flex;
+    font-size: 40px;
+    margin: 10px;
     }
 
 .right-icons {
     align-self: self-end;
-}
-
+    font-size: 40px;
+    margin: 10px;
+  }
 
 img{
     width: 100%;
@@ -34,4 +70,13 @@ img{
 .botones{
     display: flex;
     justify-content: space-between;
+}
+
+.final {
+    padding:10px;
+    font-size: 23px;
+}
+
+.lorem {
+    text-align:justify;
 }
